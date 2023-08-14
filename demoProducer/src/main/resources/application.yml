@@ -1,0 +1,10 @@
+server:
+  port: 8888
+
+rocketmq:
+  producer:
+    topic: test
+    namersrvAddr: 192.168.88.130:9876
+    groupName: producer
+    sendMessageTimeout: 3000
+    retryTimesWhenSendFailed: 3
